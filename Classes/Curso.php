@@ -22,5 +22,6 @@ class Curso
             return $stmt->fetchAll();
         }else{
             throw new Exception("Erro ao trazer os alunos");
-        }    }
+        }
+    }
 }

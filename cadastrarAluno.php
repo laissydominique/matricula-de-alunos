@@ -24,9 +24,8 @@ class cadastrarAluno{
                     header("location: cadastrarAlunoView.php?matricula-realizada");
                 }
                 else{
-                    header("location: cadastrarAlunoView.php?error=cliente-existe");
+                    header("location: cadastrarAlunoView.php?error=aluno-ja-matriculado");
                     throw new Exception("Cliente já existe!");
-                    exit;
                 }
             }
             else{

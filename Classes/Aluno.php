@@ -44,13 +44,12 @@ class Aluno extends Curso
         $stmt = $pdo->prepare($sql);
         $stmt->bindParam(':cpf', $cpf, PDO::PARAM_STR);
         $stmt->execute();
-
         return $stmt->fetchColumn() > 0;
     }
 
     public static function trazerAlunos($pdo){
 
-        $sql = "SELECT * FROM alunos";
+        $sql = "SELECT * FROM alunos ORDER BY aluno ASC";
         $stmt = $pdo->prepare($sql);
 
         if ($stmt->execute()) {
@@ -59,8 +58,4 @@ class Aluno extends Curso
             throw new Exception("Erro ao trazer os alunos");
         }
     }
-
-
-
-
 }

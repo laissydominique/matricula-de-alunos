@@ -23,11 +23,13 @@ header{
     justify-content: center;
     background-color: #ecb825;
 }
+
 .header{
     display: flex;
     gap: 15rem;
     align-items: center;
 }
+
 .header p{
     padding: 1rem;
     cursor: pointer;
