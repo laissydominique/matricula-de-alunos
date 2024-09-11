@@ -1,3 +1,21 @@
+Projeto: Sistema de Matrículas - DevAcademy
+
+Desenvolvi um projeto com o objetivo de aprimorar minhas habilidades em PHP Orientado a Objetos e SQL, criando um sistema de matrículas para a plataforma fictícia DevAcademy. O foco principal foi o desenvolvimento do backend, com um sistema robusto de gerenciamento de alunos e matrículas.
+
+Funcionalidades:
+
+- Cada aluno pode efetuar apenas uma matrícula por CPF, garantindo a integridade dos dados.
+- As matrículas realizadas são salvas diretamente no banco de dados.
+- Na aba de "Alunos", é possível visualizar uma lista completa de todos os alunos registrados, incluindo o curso escolhido e a UF de cada um.
+- Na aba de "Home" é possível realizar as matrículas.
+- Na aba de "Cursos" é possível visualizar os cursos disponíveis.
+  
+Vale lembrar que o foco deste projeto foi exclusivamente no backend, deixando o frontend em segundo plano.
+
+Confira abaixo algumas capturas de ecrã do sistema!
+
+Espero que gostem!
+
 <img width="1677" alt="Captura de Tela 2024-09-11 às 08 34 41" src="https://github.com/user-attachments/assets/db42e15a-5f7c-46c2-bf7a-4be44f512875">
 <img width="1677" alt="Captura de Tela 2024-09-11 às 08 27 04" src="https://github.com/user-attachments/assets/ac0d3af5-6d37-415a-b3cc-1eed14ab642b">
 <img width="1677" alt="Captura de Tela 2024-09-11 às 08 26 42" src="https://github.com/user-attachments/assets/549fa004-8558-48c8-96ce-fe086aceec6b">
